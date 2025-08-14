@@ -64,7 +64,7 @@ jugadores <- list(
 
 # Mostrar lista
 print(jugadores)
-  
+ 
 
 #Fechas
 fechitas <- c(cumpleaños = as.Date("August 11, 2025", format = "%B %d, %Y"),

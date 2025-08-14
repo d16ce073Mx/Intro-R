@@ -18,7 +18,11 @@ library(fImport)
 SR <- "/Users/s3mx/Documents/Doctorado/CursoIntroducción-R/Data"  
 setwd(SR)
 getwd()
-DF<-read.table("Cars.csv",header=TRUE,sep=",")
+DF<-read.table("Libro7.csv",header=TRUE,sep=",")
 attach(DF)
 detach(DF)
+View(DF)
+DF
 
+plot(DF$C1IA2)
+hist(DF$C1IA2)
